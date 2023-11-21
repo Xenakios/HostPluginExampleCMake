@@ -1,7 +1,5 @@
 #pragma once
 
-#include <juce_audio_processors/juce_audio_processors.h>
-
 /*
   ==============================================================================
 
@@ -20,44 +18,6 @@
 
   ==============================================================================
 */
-
-/*******************************************************************************
- The block below describes the properties of this PIP. A PIP is a short snippet
- of code that can be read by the Projucer and used to generate a JUCE project.
-
- BEGIN_JUCE_PIP_METADATA
-
- name:                  HostPluginDemo
- version:               1.0.0
- vendor:                JUCE
- website:               http://juce.com
- description:           Plugin that can host other plugins
-
- dependencies:          juce_audio_basics, juce_audio_devices, juce_audio_formats,
-                        juce_audio_plugin_client, juce_audio_processors,
-                        juce_audio_utils, juce_core, juce_data_structures,
-                        juce_events, juce_graphics, juce_gui_basics, juce_gui_extra
- exporters:             xcode_mac, vs2022, linux_make
-
- moduleFlags:           JUCE_STRICT_REFCOUNTEDPOINTER=1
-                        JUCE_PLUGINHOST_LV2=1
-                        JUCE_PLUGINHOST_VST3=1
-                        JUCE_PLUGINHOST_VST=0
-                        JUCE_PLUGINHOST_AU=1
-
- type:                  AudioProcessor
- mainClass:             HostAudioProcessor
-
- useLocalCopy:          1
-
- pluginCharacteristics: pluginIsSynth, pluginWantsMidiIn, pluginProducesMidiOut,
-                        pluginEditorRequiresKeys
-
- END_JUCE_PIP_METADATA
-
-*******************************************************************************/
-
-#pragma once
 
 #include "JuceHeader.h"
 
